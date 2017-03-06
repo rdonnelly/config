@@ -1,0 +1,17 @@
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew update
+
+brew install mas
+brew install mysql
+brew install postgresql
+brew install python
+brew install node
+brew install nvm
+brew install rbenv
+brew install sqlite
+
+rbenv install 2.2.3
+rbenv global 2.2.3
+
+gem install sass jekyll rouge
