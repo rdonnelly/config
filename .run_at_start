@@ -15,3 +15,9 @@ rbenv install 2.2.3
 rbenv global 2.2.3
 
 gem install sass jekyll rouge
+
+npm install -g bower
+npm install -g yarn
+
+gpip install pycodestyle
+gpip install virtualenv
